@@ -1,0 +1,132 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.app-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: xx-large;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 100px 0px 100px 100px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.row-margin {
+  margin-top: 30px;
+}
+
+.searchInfoBar {
+  margin: 10px;
+}
+
+.footer {
+  background-color: #CEE5D0;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+#entrance-time:before {
+  content: 'Từ:';
+  margin-right: .6em;
+}
+
+#exit-time:before {
+  content: 'Đến:';
+  margin-right: .6em;
+}
+
+#entrance-date:before {
+  content: 'Ngày gửi:';
+  margin-right: .6em;
+}
+
+#exit-date:before {
+  content: 'Ngày trả:';
+  margin-right: .6em;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+.park-list-tab {
+  background-color: #E5E5E5;
+  margin-top: 20px;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.location-search-input,
+.location-search-input:focus,
+.location-search-input:active {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border: honeydew;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.autocomplete-dropdown-container {
+  border-bottom: honeydew;
+  border-left: honeydew;
+  border-right: honeydew;
+  border-top: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: absolute;
+  z-index: 1000;
+  border-radius: 0 0 2px 2px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* override location image gallery style */
+.image-gallery {
+  width: 60vh;
+  height: auto;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: 50vh;
+  max-height: 50vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+  max-height: 100vh;
+}
+
+.nav-header {
+  margin-right: 20px;
+}
+
+.nav-header > .nav-link {
+  color: #3E7C17;
+}
+
+.nav-header > .nav-link:hover {
+  color: white;
+}
